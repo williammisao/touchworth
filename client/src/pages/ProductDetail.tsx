@@ -107,9 +107,9 @@ export default function ProductDetail() {
 
       {/* Main Navigation */}
       <header className="sticky top-0 z-40 border-b border-[#c9bfad]/70 bg-[#f7f3ea]/95 backdrop-blur-md">
-        <div className="mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-6 lg:px-14">
-          <Link href="/" className="group flex items-center gap-3" aria-label="TouchWorth home">
-            <img src="/img/tw-logo.png" alt="TouchWorth" className="h-9 w-auto object-contain transition group-hover:opacity-85" />
+        <div className="mx-auto flex h-[88px] max-w-[1440px] items-center justify-between px-6 lg:px-14">
+          <Link href="/" className="group flex items-center gap-3 py-1" aria-label="TouchWorth home">
+            <img src="/img/tw-logo.png" alt="TouchWorth" className="h-[68px] w-auto object-contain transition group-hover:opacity-85" />
           </Link>
 
           <nav className="hidden items-center gap-9 text-[10px] font-semibold uppercase tracking-[0.2em] md:flex">
@@ -422,7 +422,7 @@ export default function ProductDetail() {
         <div className="mx-auto max-w-[1440px] px-6 py-20 lg:px-14 lg:py-28">
           <div className="grid gap-14 border-b border-white/20 pb-16 lg:grid-cols-[1.2fr_0.8fr_0.8fr_1fr] lg:gap-10">
             <div>
-              <img src="/img/tw-logo.png" alt="TouchWorth" className="mb-6 h-12 w-auto object-contain brightness-0 invert opacity-90" />
+              <img src="/img/tw-logo.png" alt="TouchWorth" className="mb-8 h-24 w-auto object-contain brightness-0 invert opacity-95" />
               <p className="mb-6 font-display text-[22px] italic text-[#d8c69f]">
                 Designed to be lived with.
               </p>

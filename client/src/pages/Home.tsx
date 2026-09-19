@@ -41,9 +41,9 @@ export default function Home() {
       </div>
 
       <header className="absolute left-0 right-0 top-9 z-30 border-b border-white/20 text-[#faf7ef]">
-        <div className="mx-auto flex h-[78px] max-w-[1440px] items-center justify-between px-6 lg:px-14">
-          <a href="#top" className="group flex items-center gap-3" aria-label="TouchWorth home">
-            <img src="/img/tw-logo.png" alt="TouchWorth" className="h-9 w-auto object-contain brightness-0 invert transition group-hover:opacity-90" />
+        <div className="mx-auto flex h-[92px] max-w-[1440px] items-center justify-between px-6 lg:px-14">
+          <a href="#top" className="group flex items-center gap-3 py-1" aria-label="TouchWorth home">
+            <img src="/img/tw-logo.png" alt="TouchWorth" className="h-[72px] w-auto object-contain brightness-0 invert transition group-hover:opacity-90" />
           </a>
           <nav className="hidden items-center gap-9 text-[10px] font-semibold uppercase tracking-[0.2em] md:flex" aria-label="Main navigation">
             <a href="#collection" className="transition hover:text-[#dfc99f]">The edit</a>
@@ -179,7 +179,7 @@ export default function Home() {
         <div className="mx-auto max-w-[1440px] px-6 py-20 lg:px-14 lg:py-28">
           <div className="grid gap-14 border-b border-white/20 pb-16 lg:grid-cols-[1.2fr_0.8fr_0.8fr_1fr] lg:gap-10">
             <div>
-              <img src="/img/tw-logo.png" alt="TouchWorth" className="mb-6 h-12 w-auto object-contain brightness-0 invert opacity-90" />
+              <img src="/img/tw-logo.png" alt="TouchWorth" className="mb-8 h-24 w-auto object-contain brightness-0 invert opacity-95" />
               <p className="mb-6 font-display text-[22px] italic text-[#d8c69f]">Designed to be lived with.</p><h2 className="max-w-[420px] font-display text-[clamp(2.8rem,5vw,5rem)] leading-[0.94] tracking-[-0.05em]">Keep in <em className="font-normal text-[#d8c69f]">touch.</em></h2><a href="https://wa.me/9436022202" target="_blank" rel="noreferrer" className="mt-9 inline-flex items-center gap-3 border-b border-[#d8c69f] pb-2 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#f5f1e8] transition hover:gap-5">Start a conversation <ArrowRight size={15} strokeWidth={1.5} /></a></div>
             <div><p className="mb-6 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#d8c69f]">Explore</p><div className="flex flex-col gap-4 text-[13px] text-[#c6c1b5]"><a href="#collection" className="transition hover:text-white">The edit</a><a href="#story" className="transition hover:text-white">Our story</a><a href="#journal" className="transition hover:text-white">Journal</a></div></div>
             <div><p className="mb-6 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#d8c69f]">Visit</p><div className="text-[13px] leading-7 text-[#c6c1b5]">TouchWorth Studio<br />Jaipur, Rajasthan 302004<br />India</div></div>
