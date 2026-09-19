@@ -234,9 +234,7 @@ export default function Admin() {
         <div className="mx-auto w-full max-w-md px-6 py-12">
           <div className="border border-[#c9bfad] bg-[#fbf8f1] p-8 sm:p-10 shadow-[0_12px_40px_rgba(39,51,38,0.06)]">
             <div className="text-center">
-              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center border border-[#273326] font-display text-[22px] italic text-[#273326]">
-                N
-              </div>
+              <img src="/img/tw-logo.png" alt="TouchWorth" className="mx-auto mb-3 h-16 w-auto object-contain" />
               <p className="text-[10px] font-semibold uppercase tracking-[0.28em] text-[#8c654a]">
                 Bespoke Studio
               </p>
@@ -347,19 +345,16 @@ export default function Admin() {
       <header className="sticky top-0 z-40 border-b border-[#c9bfad] bg-[#fbf8f1]/95 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div className="flex items-center gap-3">
-            <span className="flex h-8 w-8 items-center justify-center border border-[#273326] font-display text-[15px] italic text-[#273326]">
-              N
+            <button
+              onClick={() => setLocation("/")}
+              className="flex items-center gap-2 hover:opacity-85 transition"
+              title="Return to Storefront"
+            >
+              <img src="/img/tw-logo.png" alt="TouchWorth" className="h-9 w-auto object-contain" />
+            </button>
+            <span className="border border-[#8c654a]/40 bg-[#8c654a]/10 px-2 py-0.5 text-[9px] font-semibold uppercase tracking-[0.16em] text-[#6e4b36]">
+              Studio Admin
             </span>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="font-display text-[17px] font-semibold tracking-[-0.02em] text-[#273326]">
-                  TouchWorth
-                </span>
-                <span className="border border-[#8c654a]/40 bg-[#8c654a]/10 px-2 py-0.5 text-[9px] font-semibold uppercase tracking-[0.16em] text-[#6e4b36]">
-                  Studio Admin
-                </span>
-              </div>
-            </div>
           </div>
 
           <div className="flex items-center gap-4">
